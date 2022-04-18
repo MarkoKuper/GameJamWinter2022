@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float playerSpeed;
 
     Rigidbody2D myRb;
-
+    public Transform PlayerTransform;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,12 +23,12 @@ public class PlayerMovement : MonoBehaviour
 
     void MovePlayer()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
+        float verticalInput = Input.GetAxisRaw("Vertical");
         if(horizontalInput != 0 || verticalInput != 0)
         {
             Vector3 moveDirection = new Vector3(horizontalInput * playerSpeed, verticalInput * playerSpeed);
-            myRb.velocity = moveDirection;
+            PlayerTransform.Translate(moveDirection);
         }
     }
 }
