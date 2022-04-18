@@ -7,12 +7,12 @@ public class PlayerMovement : MonoBehaviour
     [Header("Move Speed")]
     public float playerSpeed;
 
-    Rigidbody myRb;
+    Rigidbody2D myRb;
 
     // Start is called before the first frame update
     void Start()
     {
-        myRb = GetComponent<Rigidbody>();
+        myRb = gameObject.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
