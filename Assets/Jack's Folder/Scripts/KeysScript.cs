@@ -5,35 +5,22 @@ using UnityEngine.UI;
 
 public class KeysScript : MonoBehaviour
 {
-    private int KeysCollected;
-    public  Image[] KeySprites;
-
-
-
-    // Start is called before the first frame update
-    void Start()
+    public int keysNeeded;
+    PlayerScript PlayerSC;
+    private void Start()
     {
-        
+        PlayerSC = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScript>();
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
-    }
-    void KeyCollector()
-    {
-
-        for (int i = 0; i < KeySprites.Length; i++)
+        if (collision.gameObject.tag == "Player")
         {
-            if (i < KeysCollected)
+            if (PlayerSC.KeysCollected >= keysNeeded)
             {
-                KeySprites[i].enabled = true;
-            }
-            else
-            {
-                KeySprites[i].enabled = false;
+                PlayerSC.KeysCollected -= keysNeeded;
+                Destroy(this.gameObject);
             }
         }
     }
+
 }
