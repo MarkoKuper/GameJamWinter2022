@@ -380,7 +380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 507118726}
   - component: {fileID: 507118727}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 1840484447}
   - component: {fileID: 1840484446}
   - component: {fileID: 1840484445}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PlayerController (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

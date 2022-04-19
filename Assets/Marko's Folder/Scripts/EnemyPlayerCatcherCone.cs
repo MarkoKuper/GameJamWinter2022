@@ -10,10 +10,9 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
  
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
+        
             RaycastSweep();
-        }
+        
     }
 
     void RaycastSweep()
@@ -32,7 +31,7 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
         // step through and find each target point
         for (float i = startAngle; i < finishAngle; i += inc ) // Angle from forward
         {
-            targetPos = (Quaternion.Euler(0, i, 0) * transform.up).normalized * distance;
+            targetPos = (Quaternion.Euler(0, 0, i) * transform.up).normalized * distance;
 
             RaycastHit2D hit = Physics2D.Linecast(startPos, targetPos, 1 << LayerMask.NameToLayer("Action"));
 
