@@ -12,7 +12,7 @@ public class EnemyMovement : MonoBehaviour
     private void Start()
     {
         
-        //target = Waypoints.points[0];
+        target = Waypoints.points[0];
     }
 
     private void Update()
@@ -20,7 +20,7 @@ public class EnemyMovement : MonoBehaviour
         Vector3 dir = target.position - transform.position;
 
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), Time.deltaTime * 20);
+        //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), Time.deltaTime * 20);
 
         if (Vector3.Distance(transform.position, target.position) <= 0.25f)
         {
@@ -44,6 +44,8 @@ public class EnemyMovement : MonoBehaviour
     {
         //PlayerStats.instance.ReduceLives(); ;
         //WaveSpawner.instance.enemiesAlive--;
-        Destroy(gameObject);
+        target = Waypoints.points[1];
+        waypointIndex = 0;
+
     }
 }
