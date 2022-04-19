@@ -8,11 +8,12 @@ public class PlayerMovement : MonoBehaviour
     public float playerSpeed;
 
     Rigidbody2D myRb;
-    public Transform PlayerTransform;
+     Transform PlayerTransform;
     // Start is called before the first frame update
     void Start()
     {
         myRb = gameObject.GetComponent<Rigidbody2D>();
+        PlayerTransform = this.gameObject.transform;
     }
 
     // Update is called once per frame
