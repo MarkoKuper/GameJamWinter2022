@@ -19,6 +19,5 @@ public class PlayerScript : MonoBehaviour
         Vector3 aimDir = (targetPos ).normalized;
         FOV.SetAimDirection(aimDir);
         FOV.SetOrigin(transform.position);
-        Debug.Log(targetPos);
     }
 }
