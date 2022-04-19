@@ -12,20 +12,21 @@ public class FieldOfView : MonoBehaviour
     private float fov;
     private void Start()
     {
-         mesh = new Mesh();
+        transform.position += new Vector3(-transform.parent.position.x, -transform.parent.position.y, 0f);
+
+        mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
         origin = Vector3.zero;
         fov = 90f;
+
     }
 
-    private void Update()
+    private void LateUpdate()
     {
-        float fov = 90;
         int rayCount = 50;
-        float angle = 0f;
+        float angle = startingAngle;
         float angleIncrease = fov / rayCount;
         float viewDistance = 50f;
-        Vector3 origin = Vector3.zero;
 
         Vector3[] vertices = new Vector3[rayCount + 1 + 1];
         Vector2[] uv = new Vector2[vertices.Length];
@@ -33,8 +34,7 @@ public class FieldOfView : MonoBehaviour
 
 
         vertices[0] = origin;
-        vertices[1] = new Vector3(50, 0);
-        vertices[2] = new Vector3(0, -50);
+        
         int vertexIndex = 1;
         int triangleIndex = 0;
         for (int i = 0; i <= rayCount; i++)
