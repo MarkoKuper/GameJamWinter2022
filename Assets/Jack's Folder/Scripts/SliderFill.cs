@@ -9,31 +9,48 @@ public class SliderFill : MonoBehaviour
     public Text TimerText;
     public float GameTime;
 
-    private bool StopTimer;
+    public bool playerSpotted;
+    float time;
 
     private void Start()
     {
-        StopTimer = false;
+        playerSpotted = false;
         TimerSlider.maxValue = GameTime;
         TimerSlider.value = GameTime;
     }
 
     private void Update()
     {
-        float time = GameTime - Time.time;
-
+        if (time <= 0)
+        {
+            return;
+        }
+        if (playerSpotted)
+        {
+            DecreaseTime();
+        }
+        else
+        {
+            IncreaseTime();
+        }
         int minutes = Mathf.FloorToInt(time / 60);
         int seconds = Mathf.FloorToInt(time - minutes * 60f);
         string TextTime = string.Format("{0:00}:{1:00}", minutes, seconds);
-        if (time <= 0)
-        {
-            StopTimer = true;
-        }
-        if(StopTimer == false)
-        {
-            TimerText.text = TextTime;
-            TimerSlider.value = time;
-        }
+
+        TimerText.text = TextTime;
+        TimerSlider.value = time;
+
+
+    }
+
+    void DecreaseTime()
+    {
+       time = GameTime - Time.time;
+    }
+
+    void IncreaseTime()
+    {
+        time = GameTime + Time.time;
     }
 
 

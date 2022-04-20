@@ -18,7 +18,7 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
     void RaycastSweep()
     {
         Vector2 startPos = transform.position; // umm, start position !
-        Vector2 targetPos = Vector2.zero; // variable for calculated end position
+        Vector2 targetPos = new Vector2(0, 0); // variable for calculated end position
 
         float startAngle = -theAngle * 0.5f; // half the angle to the Left of the forward
         float finishAngle = theAngle * 0.5f; // half the angle to the Right of the forward
@@ -31,7 +31,7 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
         // step through and find each target point
         for (float i = startAngle; i < finishAngle; i += inc ) // Angle from forward
         {
-            targetPos = (Quaternion.Euler(0, 0, i) * transform.up).normalized * distance;
+            targetPos = transform.position + (Quaternion.Euler(0, 0, i) * transform.up).normalized * distance;
 
             RaycastHit2D hit = Physics2D.Linecast(startPos, targetPos, 1 << LayerMask.NameToLayer("Action"));
 
