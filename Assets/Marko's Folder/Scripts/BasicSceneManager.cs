@@ -14,4 +14,5 @@ public class BasicSceneManager : MonoBehaviour
     {
         Application.Quit();
     }
+
 }
