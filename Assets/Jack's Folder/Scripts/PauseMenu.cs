@@ -40,4 +40,9 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f; //Set time scale to 0 to stop the game
         Paused = true; //Make the paused into true
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
