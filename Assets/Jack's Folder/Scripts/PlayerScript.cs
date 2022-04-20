@@ -5,10 +5,8 @@ using UnityEngine.UI;
 using CodeMonkey.Utils;
 public class PlayerScript : MonoBehaviour
 {
-    [SerializeField] private FieldOfView FOV;
     public int KeysCollected;
     public Image[] KeySprites;
-    public Transform PlayerTrans;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +16,7 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 targetPos = UtilsClass.GetMouseWorldPosition();
-        Vector3 aimDir = (targetPos).normalized;
-        FOV.SetAimDirection(aimDir);
-        FOV.SetOrigin(transform.position);
+       
         KeyCollector();
     }
 

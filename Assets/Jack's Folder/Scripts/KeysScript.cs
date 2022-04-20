@@ -7,18 +7,22 @@ public class KeysScript : MonoBehaviour
 {
     public int keysNeeded;
     PlayerScript PlayerSC;
+    Animator AnimController;
+    bool ItsOpen;
     private void Start()
     {
+        AnimController = gameObject.GetComponent<Animator>();
         PlayerSC = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScript>();
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            if (PlayerSC.KeysCollected >= keysNeeded)
+            if (PlayerSC.KeysCollected >= keysNeeded && ItsOpen == false)
             {
                 PlayerSC.KeysCollected -= keysNeeded;
-                Destroy(this.gameObject);
+                AnimController.SetBool("DoorIsOpen", true);
+                ItsOpen = true;
             }
         }
     }
