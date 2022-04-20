@@ -57,5 +57,10 @@ public class SliderFill : MonoBehaviour
         time += Time.deltaTime;
     }
 
+    public void TogglePlayerSpotted()
+    {
+        playerSpotted = !playerSpotted;
+    }
+
 
 } 

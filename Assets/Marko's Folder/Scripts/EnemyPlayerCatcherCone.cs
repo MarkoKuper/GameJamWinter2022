@@ -7,11 +7,13 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
     public float distance  = 5.0f;
     public float theAngle = 45;
     public float segments = 10;
- 
+
+    public SliderFill sliderFill;
+
     void Update()
     {
         
-            RaycastSweep();
+        RaycastSweep();
         
     }
 
@@ -38,19 +40,27 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
             // linecast between points
             if (hit.collider != null)
             {
+
                 if (hit.collider.gameObject.CompareTag("Player"))
                 {
+                    if (sliderFill.playerSpotted == false)
+                    {
+                        sliderFill.TogglePlayerSpotted();
+                    }
                     Debug.Log("Hit " + hit.collider.gameObject.name);
+                    break;
                 }
-                else
-                {
-                    Debug.Log("Player Not Hit");
-                }
+                
             }
-            
+            else if(hit.collider == null && sliderFill.playerSpotted == true)
+            {
+                sliderFill.TogglePlayerSpotted();
+            }
+
             // to show ray just for testing
             Debug.DrawLine(startPos, targetPos, Color.green);
         }
+        
     }
 
 }
