@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         if(horizontalInput != 0 || verticalInput != 0)
         {
             Vector3 moveDirection = new Vector3(horizontalInput * playerSpeed, verticalInput * playerSpeed);
-            PlayerTransform.Translate(moveDirection);
+            PlayerTransform.Translate(moveDirection * Time.deltaTime);
         }
     }
 }
