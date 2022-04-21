@@ -31,6 +31,12 @@ public class GameManager : MonoBehaviour
         FindObjectOfType<PlayerScript>().GameOver();
     }
 
+    public void WinGame()
+    {
+        PauseGame();
+        FindObjectOfType<BasicSceneManager>().WinLevel();
+    }
+
     public void PauseGame()
     {
         Time.timeScale = 0f;
