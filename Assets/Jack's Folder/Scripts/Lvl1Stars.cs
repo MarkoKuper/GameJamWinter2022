@@ -8,11 +8,13 @@ public class Lvl1Stars : MonoBehaviour
     public int Stars;
     public Image[] StarsSprites;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
     }
     private void Update()
     {
+        
+        Stars = PlayerPrefs.GetInt("Collectables");
         LevelChecker();
     }
     public void LevelChecker()

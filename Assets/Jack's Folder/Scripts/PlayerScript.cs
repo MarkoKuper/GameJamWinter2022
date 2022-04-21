@@ -9,7 +9,7 @@ public class PlayerScript : MonoBehaviour
     public Image[] KeySprites;
 
     CircleCollider2D myCollider;
-
+    public int Colletables;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +51,11 @@ public class PlayerScript : MonoBehaviour
         if (collision.tag == "Key")
         {
             AddKey(1);
+        }
+        if (collision.tag == "Collectable")
+        {
+            Colletables += 1;
+            PlayerPrefs.SetInt("Collectables", Colletables);
         }
     }
 

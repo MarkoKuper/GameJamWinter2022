@@ -11,6 +11,7 @@ public class BasicSceneManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
         GameManager.instance.UnpauseGame();
+        PlayerPrefs.SetInt("Collectables", 0);
     }
 
     public void QuitGame()
