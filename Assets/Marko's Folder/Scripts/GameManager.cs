@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
     {
         PauseGame();
         FindObjectOfType<BasicSceneManager>().WinLevel();
+        FindObjectOfType<PauseMenu>().enabled = false;
     }
 
     public void PauseGame()
