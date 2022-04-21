@@ -27,13 +27,11 @@ public class PlayerMovement : MonoBehaviour
     {
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
-        float Moving = verticalInput + horizontalInput;
-        if(horizontalInput != 0 || verticalInput != 0)
+        Vector3 moveDirection = new Vector3(horizontalInput * playerSpeed, verticalInput * playerSpeed);
+        myAnim.SetFloat("moveVelocity", moveDirection.magnitude);
+        if (horizontalInput != 0 || verticalInput != 0)
         {
-            Vector3 moveDirection = new Vector3(horizontalInput * playerSpeed, verticalInput * playerSpeed);
             PlayerTransform.Translate(moveDirection * Time.deltaTime);
-            myAnim.SetFloat("moveVelocity", Mathf.Abs(Moving));
-
         }
     }
 }
