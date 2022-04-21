@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: dfff1b1484373734c88cc05eadc02d97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9217336955004091545
+    second: Magnus_Idle_0
+  - first:
+      213: 4656451414838879430
+    second: Magnus_Idle_1
+  - first:
+      213: 4783297272844509657
+    second: Magnus_Idle_2
+  - first:
+      213: -8133486933002085714
+    second: Magnus_Idle_3
+  - first:
+      213: -5509117286226813427
+    second: Magnus_Idle_4
+  - first:
+      213: -9088454880744226233
+    second: Magnus_Idle_5
+  - first:
+      213: -8975933181490118753
+    second: Magnus_Idle_6
+  - first:
+      213: -6430021613722884857
+    second: Magnus_Idle_7
+  - first:
+      213: -5061910889339603506
+    second: Magnus_Idle_8
+  - first:
+      213: -2723994321652995215
+    second: Magnus_Idle_9
+  - first:
+      213: -2751929774122192454
+    second: Magnus_Idle_10
+  - first:
+      213: 3346948561365786788
+    second: Magnus_Idle_11
+  - first:
+      213: 7203099050755407954
+    second: Magnus_Idle_12
+  - first:
+      213: 7333358908271977016
+    second: Magnus_Idle_13
+  - first:
+      213: 2617794499781221995
+    second: Magnus_Idle_14
+  - first:
+      213: 6720905048413076122
+    second: Magnus_Idle_15
+  - first:
+      213: -1977175855015012940
+    second: Magnus_Idle_16
+  - first:
+      213: 6470108090142053567
+    second: Magnus_Idle_17
+  - first:
+      213: 7312440663268695579
+    second: Magnus_Idle_18
+  - first:
+      213: 5043071399869588591
+    second: Magnus_Idle_19
+  - first:
+      213: 484125196798460722
+    second: Magnus_Idle_20
+  - first:
+      213: 6742197334661049024
+    second: Magnus_Idle_21
+  - first:
+      213: -8111939841185061147
+    second: Magnus_Idle_22
+  - first:
+      213: 6730242292008347966
+    second: Magnus_Idle_23
+  - first:
+      213: -224600269120535715
+    second: Magnus_Idle_24
+  - first:
+      213: 1860667867654228289
+    second: Magnus_Idle_25
+  - first:
+      213: -6968159485780531418
+    second: Magnus_Idle_26
+  - first:
+      213: -6726832273981073875
+    second: Magnus_Idle_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Magnus_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1754
+        width: 266
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76386edffd0751080800000000000000
+      internalID: -9217336955004091545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1755
+        width: 269
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4265f04e90f9040800000000000000
+      internalID: 4656451414838879430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1757
+        width: 272
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1edf2d68fa16240800000000000000
+      internalID: 4783297272844509657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1758
+        width: 274
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa112d3abc002f80800000000000000
+      internalID: -8133486933002085714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1759
+        width: 277
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e9c78440fab83b0800000000000000
+      internalID: -5509117286226813427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1760
+        width: 279
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742431c40725fd180800000000000000
+      internalID: -9088454880744226233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 1761
+        width: 280
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fb3a5f3541f6380800000000000000
+      internalID: -8975933181490118753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1463
+        width: 282
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705a6f7f869f3c6a0800000000000000
+      internalID: -6430021613722884857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1464
+        width: 283
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec53b348dda70c9b0800000000000000
+      internalID: -5061910889339603506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1464
+        width: 285
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b21b7c89d623ad0800000000000000
+      internalID: -2723994321652995215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1465
+        width: 286
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab130a6637e2fc9d0800000000000000
+      internalID: -2751929774122192454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1466
+        width: 287
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a066b1dbffb27e20800000000000000
+      internalID: 3346948561365786788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1466
+        width: 288
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ca3a4c6c86f360800000000000000
+      internalID: 7203099050755407954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 1466
+        width: 288
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8326ff1c21355c560800000000000000
+      internalID: 7333358908271977016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1168
+        width: 288
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e5e665a36445420800000000000000
+      internalID: 2617794499781221995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1168
+        width: 288
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a7acb5883754d50800000000000000
+      internalID: 6720905048413076122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1167
+        width: 286
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5d95f0909af84e0800000000000000
+      internalID: -1977175855015012940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1167
+        width: 285
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb45c4327017ac950800000000000000
+      internalID: 6470108090142053567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1166
+        width: 284
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e904f4a020b7560800000000000000
+      internalID: 7312440663268695579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1165
+        width: 282
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64a82608b69cf540800000000000000
+      internalID: 5043071399869588591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 1165
+        width: 280
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2330dfd2d45f7b600800000000000000
+      internalID: 484125196798460722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 866
+        width: 278
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0caae0211c8119d50800000000000000
+      internalID: 6742197334661049024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 865
+        width: 277
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e663de71b99c6f80800000000000000
+      internalID: -8111939841185061147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 864
+        width: 274
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39e77bc4bf966d50800000000000000
+      internalID: 6730242292008347966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 863
+        width: 273
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d530d96ce3f02ecf0800000000000000
+      internalID: -224600269120535715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 862
+        width: 271
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1498380419b62d910800000000000000
+      internalID: 1860667867654228289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 861
+        width: 269
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62768c7dddf1c4f90800000000000000
+      internalID: -6968159485780531418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnus_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 860
+        width: 266
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2699b5efad75a2a0800000000000000
+      internalID: -6726832273981073875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
