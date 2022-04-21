@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D myRb;
      Transform PlayerTransform;
+    public Animator myAnim;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,10 +27,13 @@ public class PlayerMovement : MonoBehaviour
     {
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
+        float Moving = verticalInput + horizontalInput;
         if(horizontalInput != 0 || verticalInput != 0)
         {
             Vector3 moveDirection = new Vector3(horizontalInput * playerSpeed, verticalInput * playerSpeed);
             PlayerTransform.Translate(moveDirection * Time.deltaTime);
+            myAnim.SetFloat("moveVelocity", Mathf.Abs(Moving));
+
         }
     }
 }
