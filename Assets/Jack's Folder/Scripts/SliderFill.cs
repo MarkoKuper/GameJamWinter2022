@@ -32,6 +32,10 @@ public class SliderFill : MonoBehaviour
         {
             IncreaseTime();
         }
+        else if(time <= 0)
+        {
+            GameManager.instance.GameOver();
+        }
         else
         {
             return;

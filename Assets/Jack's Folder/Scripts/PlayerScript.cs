@@ -7,10 +7,13 @@ public class PlayerScript : MonoBehaviour
 {
     public int KeysCollected;
     public Image[] KeySprites;
+
+    CircleCollider2D myCollider;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        myCollider = GetComponent<CircleCollider2D>();
     }
 
     // Update is called once per frame
@@ -49,5 +52,10 @@ public class PlayerScript : MonoBehaviour
         {
             AddKey(1);
         }
+    }
+
+    public void GameOver()
+    {
+        myCollider.enabled = false;
     }
 }

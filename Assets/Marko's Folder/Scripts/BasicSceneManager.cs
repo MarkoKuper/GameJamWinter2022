@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class BasicSceneManager : MonoBehaviour
 {
+    public GameObject gameOverMenu;
     public void ChangeScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        GameManager.instance.UnpauseGame();
     }
 
     public void QuitGame()
@@ -15,4 +17,8 @@ public class BasicSceneManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void GameOver()
+    {
+        gameOverMenu.SetActive(true);
+    }
 }
