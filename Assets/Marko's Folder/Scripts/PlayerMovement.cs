@@ -6,9 +6,11 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Move Speed")]
     public float playerSpeed;
+    public float rotationSpeed = 15;
 
     Rigidbody2D myRb;
-     Transform PlayerTransform;
+    Transform PlayerTransform;
+    public Transform playerSprite;
     public Animator myAnim;
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
         if (horizontalInput != 0 || verticalInput != 0)
         {
             PlayerTransform.Translate(moveDirection * Time.deltaTime);
+            playerSprite.rotation = Quaternion.Slerp(playerSprite.rotation, Quaternion.LookRotation(Vector3.forward, moveDirection), Time.deltaTime * rotationSpeed);
         }
     }
 }
