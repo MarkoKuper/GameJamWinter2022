@@ -10,6 +10,8 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
 
     public SliderFill sliderFill;
 
+    bool thisHitPlayer;
+
     void Update()
     {
         
@@ -46,15 +48,17 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
                     if (sliderFill.playerSpotted == false)
                     {
                         sliderFill.TogglePlayerSpotted();
+                        thisHitPlayer = true;
                     }
                     Debug.Log("Hit " + hit.collider.gameObject.name);
                     break;
                 }
                 
             }
-            else if(hit.collider == null && sliderFill.playerSpotted == true)
+            else if(hit.collider == null && sliderFill.playerSpotted == true && thisHitPlayer == true)
             {
                 sliderFill.TogglePlayerSpotted();
+                thisHitPlayer = false;
             }
 
             // to show ray just for testing
