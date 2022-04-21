@@ -8,6 +8,9 @@ public class AudioManager : MonoBehaviour
 
     public AudioSource audioSource;
 
+    public AudioClip mainMenuMusic;
+    public AudioClip factoryAmbience;
+
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -22,10 +25,17 @@ public class AudioManager : MonoBehaviour
     }
 
     //Changes background ambient sound or music loop.
-    public void PlayNewBackgroundMusic(AudioClip clip)
+    public void PlayMainMenuMusic()
     {
         audioSource.Pause();
-        audioSource.clip = clip;
+        audioSource.clip = mainMenuMusic;
+        audioSource.Play();
+    }
+
+    public void PlayFactoryAmbience()
+    {
+        audioSource.Pause();
+        audioSource.clip = factoryAmbience;
         audioSource.Play();
     }
 

@@ -7,8 +7,17 @@ public class BasicSceneManager : MonoBehaviour
 {
     public GameObject gameOverMenu;
     public GameObject winMenu;
+
     public void ChangeScene(string sceneName)
     {
+        if(sceneName == "MainMenu")
+        {
+            AudioManager.instance.PlayMainMenuMusic();
+        }
+        if(sceneName == "Tutorial" || sceneName == "Level1" || sceneName == "Level2")
+        {
+            AudioManager.instance.PlayFactoryAmbience();
+        }
         SceneManager.LoadScene(sceneName);
         GameManager.instance.UnpauseGame();
         PlayerPrefs.SetInt("Collectables", 0);
