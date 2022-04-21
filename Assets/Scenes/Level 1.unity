@@ -7484,7 +7484,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 422433153}
         m_TargetAssemblyTypeName: BasicSceneManager, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -15176,7 +15176,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 645728431}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 422433153}
+        m_TargetAssemblyTypeName: BasicSceneManager, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &645728431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17117,7 +17129,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 422433153}
         m_TargetAssemblyTypeName: BasicSceneManager, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -28122,7 +28134,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1083330888}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 422433153}
+        m_TargetAssemblyTypeName: BasicSceneManager, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1083330888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32507,7 +32531,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 422433153}
         m_TargetAssemblyTypeName: BasicSceneManager, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -32516,7 +32540,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level1
+          m_StringArgument: Level2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1213362566
@@ -47719,7 +47743,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 422433153}
         m_TargetAssemblyTypeName: BasicSceneManager, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -51515,7 +51539,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 422433153}
         m_TargetAssemblyTypeName: BasicSceneManager, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -51524,7 +51548,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Tutorial
+          m_StringArgument: Level1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1916693322
