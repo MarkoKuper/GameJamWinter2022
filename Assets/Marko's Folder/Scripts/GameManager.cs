@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
         PauseGame();
         FindObjectOfType<BasicSceneManager>().GameOver();
         FindObjectOfType<PlayerScript>().GameOver();
+        FindObjectOfType<PauseMenu>().enabled = false;
     }
 
     public void WinGame()
