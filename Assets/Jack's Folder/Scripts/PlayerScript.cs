@@ -51,11 +51,13 @@ public class PlayerScript : MonoBehaviour
         if (collision.tag == "Key")
         {
             AddKey(1);
+            Destroy(collision.gameObject);
         }
         if (collision.tag == "Collectable")
         {
             Colletables += 1;
             PlayerPrefs.SetInt("Collectables", Colletables);
+            Destroy(collision.gameObject);
         }
     }
 
