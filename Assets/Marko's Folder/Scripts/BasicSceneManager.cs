@@ -14,7 +14,7 @@ public class BasicSceneManager : MonoBehaviour
         {
             AudioManager.instance.PlayMainMenuMusic();
         }
-        if(sceneName == "Tutorial" || sceneName == "Level1" || sceneName == "Level2")
+        if(sceneName == "Tutorial" || sceneName == "Level 1" || sceneName == "Level 2" || sceneName == "Level 3")
         {
             AudioManager.instance.PlayFactoryAmbience();
         }

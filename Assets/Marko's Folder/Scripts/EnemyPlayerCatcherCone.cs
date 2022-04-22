@@ -10,13 +10,14 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
 
     public SliderFill sliderFill;
 
-    bool thisHitPlayer;
+    public AudioClip spottedPlayer;
+
+    public bool thisHitPlayer;
 
     void Update()
     {
         
         RaycastSweep();
-        
     }
 
     void RaycastSweep()
@@ -30,12 +31,12 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
         // the gap between each ray (increment)
         var inc = theAngle / segments;
 
-
-
         // step through and find each target point
         for (float i = startAngle; i < finishAngle; i += inc ) // Angle from forward
         {
-            targetPos = transform.position + (Quaternion.Euler(0, 0, i) * transform.up).normalized * distance;
+            
+            Quaternion rayRotation = Quaternion.Euler(0, 0, i);
+            targetPos = transform.position + (rayRotation * transform.up).normalized * distance;
 
             RaycastHit2D hit = Physics2D.Linecast(startPos, targetPos, 1 << LayerMask.NameToLayer("Action"));
 
@@ -48,23 +49,34 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
                     if (sliderFill.playerSpotted == false)
                     {
                         sliderFill.TogglePlayerSpotted();
+                        //AudioManager.instance.PlaySound(spottedPlayer, 1f);
                         thisHitPlayer = true;
+
+
                     }
                     Debug.Log("Hit " + hit.collider.gameObject.name);
                     break;
                 }
                 
             }
-            else if(hit.collider == null && sliderFill.playerSpotted == true && thisHitPlayer == true)
+            else if(hit.collider == null && sliderFill.playerSpotted == true  && thisHitPlayer) 
             {
-                sliderFill.TogglePlayerSpotted();
-                thisHitPlayer = false;
+                //if (i > finishAngle + inc)
+                {
+                    sliderFill.TogglePlayerSpotted();
+                    thisHitPlayer = false;
+                }
             }
-
-            // to show ray just for testing
+            
             Debug.DrawLine(startPos, targetPos, Color.green);
         }
         
     }
+
+    //bool CheckAngle(float i, float finishAngle, float inc)
+    //{
+    //    bool angleIsBigger;
+        
+    //}
 
 }

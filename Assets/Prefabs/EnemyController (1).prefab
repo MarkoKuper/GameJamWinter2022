@@ -55,6 +55,7 @@ MonoBehaviour:
   theAngle: 145
   segments: 11
   sliderFill: {fileID: 0}
+  spottedPlayer: {fileID: 8300000, guid: 1e0b5109230854747acf59b25c865ce7, type: 3}
 --- !u!114 &5635549705096375101
 MonoBehaviour:
   m_ObjectHideFlags: 0
