@@ -207,6 +207,7 @@ MonoBehaviour:
   KeysCollected: 0
   KeySprites: []
   Colletables: 0
+  keyPickup: {fileID: 8300000, guid: 1a340d23e0b6c5b478a51807d728274b, type: 3}
 --- !u!82 &1390687917999145816
 AudioSource:
   m_ObjectHideFlags: 0

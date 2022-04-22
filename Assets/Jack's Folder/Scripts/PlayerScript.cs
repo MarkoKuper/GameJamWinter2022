@@ -10,6 +10,8 @@ public class PlayerScript : MonoBehaviour
 
     CircleCollider2D myCollider;
     public int Colletables;
+    public AudioClip keyPickup;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +53,7 @@ public class PlayerScript : MonoBehaviour
         if (collision.tag == "Key")
         {
             AddKey(1);
+            AudioManager.instance.PlaySound(keyPickup, 1f);
             Destroy(collision.gameObject);
         }
         if (collision.tag == "Collectable")
