@@ -1,61 +1,61 @@
 fileFormatVersion: 2
-guid: f51898e332f9cdc4eb17173424a9228b
+guid: 60a8f25497a319c47aa7675d21075190
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7908535103596390058
-    second: Magnus_Walking_0
+      213: 4307910276297215773
+    second: German_Guard_Walking_0
   - first:
-      213: -6291527176765640263
-    second: Magnus_Walking_1
+      213: 6788793814142135287
+    second: German_Guard_Walking_1
   - first:
-      213: 7543260763279198644
-    second: Magnus_Walking_2
+      213: 7655073447172706983
+    second: German_Guard_Walking_2
   - first:
-      213: 5219830356299393299
-    second: Magnus_Walking_3
+      213: 5629845274673150073
+    second: German_Guard_Walking_3
   - first:
-      213: -603035420436327814
-    second: Magnus_Walking_4
+      213: 397910643726203923
+    second: German_Guard_Walking_4
   - first:
-      213: 5018876145306889095
-    second: Magnus_Walking_5
+      213: -5305103363277305593
+    second: German_Guard_Walking_5
   - first:
-      213: 7693617972910037477
-    second: Magnus_Walking_6
+      213: 283309693979161966
+    second: German_Guard_Walking_6
   - first:
-      213: 6779816138484396284
-    second: Magnus_Walking_7
+      213: -7640987051026218563
+    second: German_Guard_Walking_7
   - first:
-      213: -3193325029387382974
-    second: Magnus_Walking_8
+      213: -2241801731885897621
+    second: German_Guard_Walking_8
   - first:
-      213: 8304508013173930324
-    second: Magnus_Walking_9
+      213: 9050541103107880547
+    second: German_Guard_Walking_9
   - first:
-      213: 2159641253185674647
-    second: Magnus_Walking_10
+      213: -1318691277912915161
+    second: German_Guard_Walking_10
   - first:
-      213: -1462859211579327212
-    second: Magnus_Walking_11
+      213: 5495159889095309227
+    second: German_Guard_Walking_11
   - first:
-      213: 3139935252304484555
-    second: Magnus_Walking_12
+      213: 3986397223405858583
+    second: German_Guard_Walking_12
   - first:
-      213: -710977190733453868
-    second: Magnus_Walking_13
+      213: -2557206646696852287
+    second: German_Guard_Walking_13
   - first:
-      213: 8554221287328719645
-    second: Magnus_Walking_14
+      213: 3706646416912644181
+    second: German_Guard_Walking_14
   - first:
-      213: -3414759827828839139
-    second: Magnus_Walking_15
+      213: 1676007664126502332
+    second: German_Guard_Walking_15
   - first:
-      213: 241758978327938575
-    second: Magnus_Walking_16
+      213: -882231310405199869
+    second: German_Guard_Walking_16
   - first:
-      213: -6212307369938720673
-    second: Magnus_Walking_17
+      213: -8857592835238728017
+    second: German_Guard_Walking_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -86,7 +86,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -141,395 +141,383 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Magnus_Walking_0
+      name: German_Guard_Walking_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1823
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        y: 1797
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6591e68793d3f3290800000000000000
-      internalID: -7908535103596390058
+      spriteID: d1f43fe6295c8cb30800000000000000
+      internalID: 4307910276297215773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_1
+      name: German_Guard_Walking_1
       rect:
         serializedVersion: 2
-        x: 327
-        y: 1823
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        x: 495
+        y: 1797
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b1fa2edd5100b8a0800000000000000
-      internalID: -6291527176765640263
+      spriteID: 7fbaf416104a63e50800000000000000
+      internalID: 6788793814142135287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_2
+      name: German_Guard_Walking_2
       rect:
         serializedVersion: 2
-        x: 654
-        y: 1823
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        x: 990
+        y: 1797
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b90663c2bb0fa860800000000000000
-      internalID: 7543260763279198644
+      spriteID: 7a2114cedb84c3a60800000000000000
+      internalID: 7655073447172706983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_3
+      name: German_Guard_Walking_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1594
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        x: 1485
+        y: 1797
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 319a60f9d00907840800000000000000
-      internalID: 5219830356299393299
+      spriteID: 978fd49f27a312e40800000000000000
+      internalID: 5629845274673150073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_4
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 1594
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a721ae9ea7691a7f0800000000000000
-      internalID: -603035420436327814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magnus_Walking_5
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 1594
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78be2b45341a6a540800000000000000
-      internalID: 5018876145306889095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magnus_Walking_6
+      name: German_Guard_Walking_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 1365
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        y: 1542
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e91dd8a8c835ca60800000000000000
-      internalID: 7693617972910037477
+      spriteID: 31cb5ab4f99a58500800000000000000
+      internalID: 397910643726203923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_7
+      name: German_Guard_Walking_5
       rect:
         serializedVersion: 2
-        x: 327
-        y: 1365
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        x: 495
+        y: 1542
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf0b2d06bdeb61e50800000000000000
-      internalID: 6779816138484396284
+      spriteID: 7094027499c7066b0800000000000000
+      internalID: -5305103363277305593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_8
+      name: German_Guard_Walking_6
       rect:
         serializedVersion: 2
-        x: 654
-        y: 1365
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        x: 990
+        y: 1542
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24f40030ec70fa3d0800000000000000
-      internalID: -3193325029387382974
+      spriteID: e657d076aa48ee300800000000000000
+      internalID: 283309693979161966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_9
+      name: German_Guard_Walking_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1136
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        x: 1485
+        y: 1542
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 459fd9fe90a8f3370800000000000000
-      internalID: 8304508013173930324
+      spriteID: db10932c2c2c5f590800000000000000
+      internalID: -7640987051026218563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_10
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 1136
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79d596a074698fd10800000000000000
-      internalID: 2159641253185674647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magnus_Walking_11
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 1136
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41df7613c41e2bbe0800000000000000
-      internalID: -1462859211579327212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magnus_Walking_12
+      name: German_Guard_Walking_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 907
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        y: 1287
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc8d553d97a439b20800000000000000
-      internalID: 3139935252304484555
+      spriteID: b68e512d33583e0e0800000000000000
+      internalID: -2241801731885897621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_13
+      name: German_Guard_Walking_9
       rect:
         serializedVersion: 2
-        x: 327
-        y: 907
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        x: 495
+        y: 1287
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d56dee030a1226f0800000000000000
-      internalID: -710977190733453868
+      spriteID: 36631d37e2bf99d70800000000000000
+      internalID: 9050541103107880547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_14
+      name: German_Guard_Walking_10
       rect:
         serializedVersion: 2
-        x: 654
-        y: 907
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        x: 990
+        y: 1287
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d13205940f2b6b670800000000000000
-      internalID: 8554221287328719645
+      spriteID: 723489bf44113bde0800000000000000
+      internalID: -1318691277912915161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_15
+      name: German_Guard_Walking_11
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1287
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba73085fdcab24c40800000000000000
+      internalID: 5495159889095309227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_Guard_Walking_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 678
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        y: 1032
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1decfc57065c90d0800000000000000
-      internalID: -3414759827828839139
+      spriteID: 71fa5b26727825730800000000000000
+      internalID: 3986397223405858583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_16
+      name: German_Guard_Walking_13
       rect:
         serializedVersion: 2
-        x: 327
-        y: 678
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        x: 495
+        y: 1032
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f068f788286ea5300800000000000000
-      internalID: 241758978327938575
+      spriteID: 1c4cd5e7a1af28cd0800000000000000
+      internalID: -2557206646696852287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magnus_Walking_17
+      name: German_Guard_Walking_14
       rect:
         serializedVersion: 2
-        x: 654
-        y: 678
-        width: 323
-        height: 225
-      alignment: 9
-      pivot: {x: 0.5026405, y: 0.4166054}
+        x: 990
+        y: 1032
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f58e24b7c5379c9a0800000000000000
-      internalID: -6212307369938720673
+      spriteID: 5587d0c0747a07330800000000000000
+      internalID: 3706646416912644181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_Guard_Walking_15
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1032
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5a7153710624710800000000000000
+      internalID: 1676007664126502332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_Guard_Walking_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 777
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30812952c4fa1c3f0800000000000000
+      internalID: -882231310405199869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: German_Guard_Walking_17
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 777
+        width: 491
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faeec82fe32831580800000000000000
+      internalID: -8857592835238728017
       vertices: []
       indices: 
       edges: []
