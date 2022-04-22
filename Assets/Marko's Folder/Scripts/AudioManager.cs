@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
 
-    public AudioSource audioSource;
+    public AudioSource audioSourceBg;
 
     public AudioClip mainMenuMusic;
     public AudioClip factoryAmbience;
@@ -27,21 +27,31 @@ public class AudioManager : MonoBehaviour
     //Changes background ambient sound or music loop.
     public void PlayMainMenuMusic()
     {
-        audioSource.Pause();
-        audioSource.clip = mainMenuMusic;
-        audioSource.Play();
+        audioSourceBg.Pause();
+        audioSourceBg.clip = mainMenuMusic;
+        audioSourceBg.Play();
     }
 
     public void PlayFactoryAmbience()
     {
-        audioSource.Pause();
-        audioSource.clip = factoryAmbience;
-        audioSource.Play();
+        audioSourceBg.Pause();
+        audioSourceBg.clip = factoryAmbience;
+        audioSourceBg.Play();
     }
 
     //Plays oneshot sound clip.
     public void PlaySound(AudioClip clip)
     {
-        audioSource.PlayOneShot(clip);
+        audioSourceBg.PlayOneShot(clip);
+    }
+
+    public void PlayFootSteps(AudioSource audioSource)
+    {
+        audioSource.Play();
+    }
+
+    public void StopFootSteps(AudioSource audioSource)
+    {
+        audioSource.Pause();
     }
 }
