@@ -40,9 +40,9 @@ public class AudioManager : MonoBehaviour
     }
 
     //Plays oneshot sound clip.
-    public void PlaySound(AudioClip clip)
+    public void PlaySound(AudioClip clip, float volume)
     {
-        audioSourceBg.PlayOneShot(clip);
+        audioSourceBg.PlayOneShot(clip, volume);
     }
 
     public void PlayFootSteps(AudioSource audioSource)
