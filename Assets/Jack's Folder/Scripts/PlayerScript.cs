@@ -11,6 +11,7 @@ public class PlayerScript : MonoBehaviour
     CircleCollider2D myCollider;
     public int Colletables;
     public AudioClip keyPickup;
+    public AudioClip collectiblePickup;
 
     // Start is called before the first frame update
     void Start()
@@ -60,6 +61,7 @@ public class PlayerScript : MonoBehaviour
         {
             Colletables += 1;
             PlayerPrefs.SetInt("Collectables", Colletables);
+            AudioManager.instance.PlaySound(collectiblePickup, 1f);
             Destroy(collision.gameObject);
         }
     }
