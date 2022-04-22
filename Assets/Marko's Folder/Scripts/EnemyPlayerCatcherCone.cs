@@ -34,7 +34,7 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
         // step through and find each target point
         for (float i = startAngle; i < finishAngle; i += inc ) // Angle from forward
         {
-            Debug.Log(i);
+            
             Quaternion rayRotation = Quaternion.Euler(0, 0, i);
             targetPos = transform.position + (rayRotation * transform.up).normalized * distance;
 
@@ -48,8 +48,8 @@ public class EnemyPlayerCatcherCone : MonoBehaviour
                 {
                     if (sliderFill.playerSpotted == false)
                     {
-                        //sliderFill.TogglePlayerSpotted();
-                        AudioManager.instance.PlaySound(spottedPlayer, 1f);
+                        sliderFill.TogglePlayerSpotted();
+                        //AudioManager.instance.PlaySound(spottedPlayer, 1f);
                         thisHitPlayer = true;
 
 
