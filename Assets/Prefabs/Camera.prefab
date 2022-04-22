@@ -51,6 +51,8 @@ MonoBehaviour:
   theAngle: 94.66
   segments: 13
   sliderFill: {fileID: 0}
+  spottedPlayer: {fileID: 0}
+  thisHitPlayer: 0
 --- !u!58 &6159802243774888015
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -91,13 +93,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6159802244016907379}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.764325, w: 0.6448312}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6159802243774888009}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 99.694}
 --- !u!212 &6159802244016907389
 SpriteRenderer:
   m_ObjectHideFlags: 0
